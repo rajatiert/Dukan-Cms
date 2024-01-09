@@ -4,7 +4,7 @@ import { arrowUrl, questionLogo, questionMarkUrl, arrowRightUrl, arrowRightColor
 const Overview = () => {
     return (
         <div className="flex flex-col gap-6 w-full py-3 px-8">
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between min-w-[700px]">
                 <div>
                     <p className="text-dukan-black12 font-medium text-xl">Overview</p>
                 </div>
@@ -19,7 +19,7 @@ const Overview = () => {
             </div>
 
             <div className="flex flex-row w-full gap-5 ">
-                <div className="w-1/3 min-h-[154px] bg-dukan-primaryBlue flex flex-col justify-between rounded-md ">
+                <div className="w-1/3 min-h-[154px] min-w-[370px] bg-dukan-primaryBlue flex flex-col justify-between rounded-md ">
 
                     <div className="flex flex-col justify-between p-4  ">
                         <div className="flex flex-col">
